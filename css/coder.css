@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'cairo','arial';
+    background: url('luca-huter-477208-unsplash.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.masthead-brand{
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 38px;
+}
+.nav li a{
+    color: white;
+}
+.para-lead{
+    line-height: 2;
+}
+.cover-heading{
+    font-family: 'Righteous', 'cairo';
+    margin-bottom: 50px;
+    color: black;
+}
+#OpN{
+    transition: opacity 1s ease-in-out;
+}
+.articles{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    padding: 5px;
+}
+.about-Us{
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    padding: 20px;
+}
+.about-Us p{
+    line-height: 6;
+    text-align: center;
+}.about-Us h1, .contact h1{
+  font-family: 'Righteous', 'cairo';
+    color: black;
+}
+.contact{
+    padding: 20px;
+}
+.contact h1{
+     font-family: 'Righteous', 'cairo';
+    color: black;
+    margin-bottom: 50px;
+}
+.form-control {
+    margin-bottom: 20px;
+}
+text-area{
+    color: black;
+}
